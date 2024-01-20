@@ -36,4 +36,23 @@ The scatter plot matrix is really useful. It shows:
  - the outliers (orange points) are not just high and low values in one or two variables. Instead they can be seen to be scattered amongst all the dimensions, suggesting that the algorithm has successfully identified multidimensional outliers
  - the scatterplot of sun_hrs and rain_mm is perhaps the most interesting with extreme values existing in all the edges of the chart, except for low rain_mm.
 
+![Code to perform the tasks above](Climate_extremes.md)
 
+## Forecasting with a boosted decision tree: XGBoost algorithm
+Using a standard "video games" data set that contains columns like: sales volumes; critic and user scores; year of release; genre.
+
+The project objective I set myself was a hard one
+ - 'Critic_Score','Critic_Count','User_Score','User_Count','Rating','Year_of_Release' - the candidate explanatory variables.
+ - 'Global_Sales' - the variable we want to predict.
+
+The data (after data munging) was like this:
+
+![]()
+
+Use hold-out validation to assess the forecast accuracy. See a scatter plot below of predictions vs actual global sales:
+
+![]()
+
+The correlation between the predicted global sales and actual was 0.38, ie medium strength.
+
+Then I used a randomised search approach to quickly (it took 9s) optimise the XGBoost parameters and repeated the XGBoost forecast. The correlation had improved slightly to r = 0.41.
