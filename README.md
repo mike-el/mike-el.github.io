@@ -45,7 +45,7 @@ The project objective I set myself was a hard one
  - 'Critic_Score','Critic_Count','User_Score','User_Count','Rating','Year_of_Release' - the candidate explanatory variables.
  - 'Global_Sales' - the variable we want to predict.
 
-The data (after data munging) was like this:
+The data (after data munging) was like this, with 1 row per game:
 
 ![](https://github.com/mike-el/mike-el.github.io/blob/main/images/xgboost_data_optimisation.png)
 
