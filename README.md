@@ -13,7 +13,7 @@ Using the Met Office IRIS package, open a cube that contains many years worth of
 ![](https://github.com/mike-el/mike-el.github.io/blob/main/images/hadley_last_slice.jpg)
 
 ## Climate extremes
-Using a long time series of multi-dimensional weather station data, load into a dataframe, remove missing numbers and non-numeric identifiers (eg estimated data), classify each month of the time series as an outlier or not based on the k-means cluster algorithm, then use the seaborn package to visualise the multi-dimensional data set with points labelled orange if they are classed as an outlier or not.
+Using a long time series of multi-dimensional weather station data, load into a dataframe, remove missing numbers and non-numeric identifiers (eg estimated data), classify each month of the time series as an outlier or not based on the K nearest neighbours clustering algorithm, then use the seaborn package to visualise the multi-dimensional data set with points labelled orange if they are classed as an outlier or not.
 
 ![](https://github.com/mike-el/mike-el.github.io/blob/main/images/oxford_scatterplot_outliers.png)
 
