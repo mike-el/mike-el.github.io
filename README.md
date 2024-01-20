@@ -51,10 +51,10 @@ The data (after data munging) was like this:
 
 Use hold-out validation to assess the forecast accuracy. See a scatter plot below of predictions vs actual global sales:
 
-![](https://github.com/mike-el/mike-el.github.io/blob/main/images/xgboost_before_optimisation.png)
+![](https://github.com/mike-el/mike-el.github.io/blob/main/images/xgboost_after_optimisation.png)
 
 The correlation between the predicted global sales and actual was 0.38, ie medium strength.
 
 Then I used a randomised search approach to quickly (it took 9s) optimise the XGBoost parameters and repeated the XGBoost forecast. The correlation had improved slightly to r = 0.41.
 
-![](https://github.com/mike-el/mike-el.github.io/blob/main/images/xgboost_after_optimisation.png)
+![](https://github.com/mike-el/mike-el.github.io/blob/main/images/xgboost_before_optimisation.png)
