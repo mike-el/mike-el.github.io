@@ -14,7 +14,7 @@ Using the Met Office IRIS package, open a cube that contains many years worth of
 
 The data are in NetCDF format, which is a standard data format for climate data. The Hadley sea surface temperature anomaly data spans 1850 - 2023.
 
-![Code to perform the tasks above]()
+![Code to perform the tasks above](Weather_data_cube.md)
 
 ## Climate extremes
 Using a long time series of multi-dimensional weather station data, load into a dataframe, remove missing numbers and non-numeric identifiers (eg estimated data), classify each month of the time series as an outlier or not based on the K nearest neighbours clustering algorithm, then use the seaborn package to visualise the multi-dimensional data set with points labelled orange if they are classed as an outlier or not.
