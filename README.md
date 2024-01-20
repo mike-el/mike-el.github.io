@@ -63,7 +63,7 @@ Then I used a randomised search approach to quickly (it took 9s) optimise the XG
 
 ## Project: Artificial Intelligence - Natural Language Processing
 
-I have been working on using AI for NLP and have worked through an increasingly advanced set of NLP projects (Simple RNN, LSTMs, GRUs, BI-Directional RNNs, Seq2Seq Model Architecture aka Encoder-Decoder Models, Attention Models, Transformers, Hugging Face text summarisation, pytorch T5 text summarisation). Here I present an example of an Attention model being used for language translation from French to English. 
+I have been working on using AI for NLP and have worked through an increasingly advanced set of NLP projects (Simple RNN, LSTMs, GRUs, BI-Directional RNNs, Seq2Seq Model Architecture aka Encoder-Decoder Models, Attention Models, Transformers, Hugging Face text summarisation, pytorch T5 text summarisation). Here I present an example of an Attention model I had trained to be used for language translation from French to English. 
 
 Without access to high performance computing I was forced to reduce training sample size and durations which lead to reduced model performance, nevertheless the attention model performed well enough to confirm it was working. See the example attention translation diagram below of the trained model.
 
