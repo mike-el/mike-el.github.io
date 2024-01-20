@@ -67,6 +67,6 @@ I have been working on using AI for NLP and have worked through an increasingly 
 
 Without access to high performance computing I was forced to reduce training sample size and durations which lead to reduced model performance, nevertheless the attention model performed well enough to confirm it was working. See the example attention translation diagram below of the trained model.
 
-![]()
+![](https://github.com/mike-el/mike-el.github.io/blob/main/images/Attention_translation_output.png)
 
 
