@@ -19,11 +19,11 @@ Using a long time series of multi-dimensional weather station data, load into a 
 
 Our historic station data consists of:
 
- Mean daily maximum temperature (tmax)
- Mean daily minimum temperature (tmin)
- Days of air frost (af)
- Total rainfall (rain)
- Total sunshine duration (sun) - This is only recorded from 1929 onwards.
+ - Mean daily maximum temperature (tmax)
+ - Mean daily minimum temperature (tmin)
+ - Days of air frost (af)
+ - Total rainfall (rain)
+ - Total sunshine duration (sun) - This is only recorded from 1929 onwards.
 
 The scatter plot matrix is really useful. It shows
  - bimodal distributions for temperature and sunshine
