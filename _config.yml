@@ -1,5 +1,5 @@
 title: Mike Elliott
 #logo:  path/filename.png  # relative path to a png file in github repo.
 #description: text below image
-#show_downloads: true # If i have code files I want people to be able to download.
+show_downloads: true # If i have code files I want people to be able to download.
 theme: jekyll-theme-minimal
