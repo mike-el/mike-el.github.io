@@ -8,11 +8,11 @@
  - XGBoost for predictive modelling
 
 ## Weather data cube
-Using the Met Office IRIS package, open a cube that contains many years worth of the Hadley sea surface temperature anomaly data, explore the dimensions and their ranges, select the most recent time slice, then visualise it using a color-brewer palette with coastlines displayed on a filled contour plot:
+Using the Met Office IRIS package, open a cube that contains many years worth of the Hadley sea surface temperature anomaly data, explore the dimensions and their ranges, select the most recent time slice, then visualise the latest 2023 anomaly global picture using a color-brewer palette with coastlines displayed on a filled contour plot:
 
 ![](https://github.com/mike-el/mike-el.github.io/blob/main/images/hadley_last_slice.jpg)
 
-The data are in NetCDF format, which is a standard data format for climate data.
+The data are in NetCDF format, which is a standard data format for climate data. The Hadley sea surface temperature anomaly data spans 1850 - 2023.
 
 ## Climate extremes
 Using a long time series of multi-dimensional weather station data, load into a dataframe, remove missing numbers and non-numeric identifiers (eg estimated data), classify each month of the time series as an outlier or not based on the K nearest neighbours clustering algorithm, then use the seaborn package to visualise the multi-dimensional data set with points labelled orange if they are classed as an outlier or not.
