@@ -3,6 +3,7 @@
 # Mike Elliott
 ## Data science portfolio
 
+This short portfolio covers a few of my recent (2023 and 2024) self-training activities, including
  - Weather and climate modelling
  - Artificial Intelligence: Natural Language Processing
  - XGBoost for predictive modelling
@@ -14,7 +15,7 @@ Using the Met Office IRIS package, open a cube that contains many years worth of
 
 The data are in NetCDF format, which is a standard data format for climate data. The Hadley sea surface temperature anomaly data spans 1850 - 2023.
 
-![Code to perform the tasks above](Weather_data_cube.md)
+![Code to perform the tasks above is available on my github](Weather_data_cube.md)
 
 ## Project: Climate extremes
 Using a long time series of multi-dimensional weather station data, load into a dataframe, remove missing numbers and non-numeric identifiers (eg estimated data), classify each month of the time series as an outlier or not based on the K nearest neighbours clustering algorithm, then use the seaborn package to visualise the multi-dimensional data set with points labelled orange if they are classed as an outlier or not.
@@ -36,7 +37,7 @@ The scatter plot matrix is really useful. It shows:
  - the outliers (orange points) are not just high and low values in one or two variables. Instead they can be seen to be scattered amongst all the dimensions, suggesting that the algorithm has successfully identified multidimensional outliers
  - the scatterplot of sun_hrs and rain_mm is perhaps the most interesting with extreme values existing in all the edges of the chart, except for low rain_mm.
 
-![Code to perform the tasks above](Climate_extremes.md)
+![Code to perform the tasks above is available on my github](Climate_extremes.md)
 
 With access to similar daily data, it should be possible to build a model that can predict climate extremes before they occur. The monthly time resolution of the available dataset is likely to stop a forecasting model being useful.
 
