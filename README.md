@@ -44,7 +44,7 @@ With access to similar daily data, it should be possible to build a model that c
 ## Project: Forecasting with a boosted decision tree: XGBoost algorithm
 Using a standard "video games" data set that contains columns like: sales volumes; critic and user scores; year of release; genre.
 
-The project objective I set myself was a hard one
+The project objective I set myself was a hard one (as the explanatory variables were always going to be weak predictors of global sales)
  - 'Critic_Score','Critic_Count','User_Score','User_Count','Rating','Year_of_Release' - the candidate explanatory variables.
  - 'Global_Sales' - the variable we want to predict.
 
@@ -56,9 +56,9 @@ Use hold-out validation to assess the forecast accuracy. See a scatter plot belo
 
 ![](images/xgboost_after_optimisation.png)
 
-The correlation between the predicted global sales and actual was 0.38, ie medium strength.
+The correlation between the predicted global sales and actual was 0.38, ie medium strength. I assessed the correlation on the validation data set to give a fair assessment of the regression model and was surprised how strong the correlation was under the circumstances - confirming why the XGBoost algorithm is proving so popular in data science circles.
 
-Then I used a randomised search approach to quickly (it took 9s) optimise the XGBoost parameters and repeated the XGBoost forecast. The correlation had improved slightly to r = 0.41.
+Then I used a randomised search approach to quickly (it took 9s) optimise the XGBoost parameters and repeated the XGBoost forecast. The correlation had improved slightly to r = 0.41. A formal grid search would undoubtedly have yielded a higher correlation by finding a better optimised parameter set - but that was not a priority for this training exercise.
 
 ![](images/xgboost_before_optimisation.png)
 
@@ -70,4 +70,4 @@ Without access to high performance computing I was forced to reduce training sam
 
 ![](images/Attention_translation_output.png)
 
-
+I spent a considerable amount of time learning AI and state of the art neural architectures for this suite of training and it has been valuable to give me a much improved understanding of AI and hot topics such as generative AI and ChatGPT - as well as enabling me to see how I could apply AI for other subject areas, eg image processing, forecasting.
