@@ -10,7 +10,7 @@
 ## Project: Weather data cube
 Using the Met Office IRIS package, open a cube that contains many years worth of the Hadley sea surface temperature anomaly data, explore the dimensions and their ranges, select the most recent time slice, then visualise the latest 2023 anomaly global picture using a color-brewer palette with coastlines displayed on a filled contour plot:
 
-![](https://github.com/mike-el/mike-el.github.io/blob/main/images/hadley_last_slice.jpg)
+![](/images/hadley_last_slice.jpg)
 
 The data are in NetCDF format, which is a standard data format for climate data. The Hadley sea surface temperature anomaly data spans 1850 - 2023.
 
@@ -19,7 +19,7 @@ The data are in NetCDF format, which is a standard data format for climate data.
 ## Project: Climate extremes
 Using a long time series of multi-dimensional weather station data, load into a dataframe, remove missing numbers and non-numeric identifiers (eg estimated data), classify each month of the time series as an outlier or not based on the K nearest neighbours clustering algorithm, then use the seaborn package to visualise the multi-dimensional data set with points labelled orange if they are classed as an outlier or not.
 
-![](https://github.com/mike-el/mike-el.github.io/blob/main/images/oxford_scatterplot_outliers.png)
+![](/images/oxford_scatterplot_outliers.png)
 
 Our historic station data consists of:
 
@@ -49,17 +49,17 @@ The project objective I set myself was a hard one
 
 The data (after extensive data munging) was like this, with 1 row per game:
 
-![](https://github.com/mike-el/mike-el.github.io/blob/main/images/xgboost_data_optimisation.png)
+![](/images/xgboost_data_optimisation.png)
 
 Use hold-out validation to assess the forecast accuracy. See a scatter plot below of predictions vs actual global sales:
 
-![](https://github.com/mike-el/mike-el.github.io/blob/main/images/xgboost_after_optimisation.png)
+![](images/xgboost_after_optimisation.png)
 
 The correlation between the predicted global sales and actual was 0.38, ie medium strength.
 
 Then I used a randomised search approach to quickly (it took 9s) optimise the XGBoost parameters and repeated the XGBoost forecast. The correlation had improved slightly to r = 0.41.
 
-![](https://github.com/mike-el/mike-el.github.io/blob/main/images/xgboost_before_optimisation.png)
+![](images/xgboost_before_optimisation.png)
 
 ## Project: Artificial Intelligence - Natural Language Processing
 
@@ -67,6 +67,6 @@ I have been working on using AI for NLP and have worked through an increasingly 
 
 Without access to high performance computing I was forced to reduce training sample size and durations which lead to reduced model performance, nevertheless the attention model performed well enough to confirm it was working. See the example attention translation diagram below of the trained model.
 
-![](https://github.com/mike-el/mike-el.github.io/blob/main/images/Attention_translation_output.png)
+![](images/Attention_translation_output.png)
 
 
