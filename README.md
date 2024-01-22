@@ -71,3 +71,5 @@ Without access to high performance computing I was forced to reduce training sam
 ![](images/Attention_translation_output.png)
 
 I spent a considerable amount of time learning AI and state of the art neural architectures for this suite of training and it has been valuable to give me a much improved understanding of AI and hot topics such as generative AI and ChatGPT - as well as enabling me to see how I could apply AI for other subject areas, eg image processing, forecasting.
+
+![Code to perform the tasks above is available on my github](20240122_AI_transformer_model.md)
