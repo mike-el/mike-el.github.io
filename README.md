@@ -62,6 +62,8 @@ Then I used a randomised search approach to quickly (it took 9s) optimise the XG
 
 ![](images/xgboost_before_optimisation.png)
 
+![Code to perform the tasks above is available on my github](20240122_forecasting_with_xgboost.md)
+
 ## Project: Artificial Intelligence - Natural Language Processing
 
 I have been working on using AI for NLP and have worked through an increasingly advanced set of NLP projects (Simple RNN, LSTMs, GRUs, BI-Directional RNNs, Seq2Seq Model Architecture aka Encoder-Decoder Models, Attention Models, Transformers, Hugging Face text summarisation, pytorch T5 text summarisation). Here I present an example of an Attention model I had trained to be used for language translation from French to English. 
