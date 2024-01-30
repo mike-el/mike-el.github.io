@@ -17,6 +17,8 @@ The model adds gaussian noise components to the x and y wind speed components to
 
 ![](/images/atmospheric_dispersion.png)
 
+![Code to perform the tasks above is available on my github](20240130_atmospheric_dispersion_wind_speed.md)
+
 ## Project: Weather data cube
 Using the Met Office IRIS package, open a cube that contains many years worth of the Hadley sea surface temperature anomaly data, explore the dimensions and their ranges, select the most recent time slice, then visualise the latest 2023 anomaly global picture using a color-brewer palette with coastlines displayed on a filled contour plot:
 
