@@ -7,7 +7,16 @@ This short portfolio covers a few of my recent (2023 and 2024) self-training act
  - Weather and climate modelling
  - Artificial Intelligence: Natural Language Processing
  - XGBoost for predictive modelling
-   
+
+## Project: Atmospheric dispersion model - for wind blown particles
+I built a simple monte carlo simulation to track how particles are dispersed due to wind currents. I loaded real wind data from Lake Victoria using the Met Office IRIS package:
+
+![](/images/wind_speed_lake_victoria.png)
+
+The model adds gaussian noise components to the x and y wind speed components to simulate turbulence. Shown below are tracks for 5 particles. Note that the x and y axes have different scales to help illustrate how each particle follows a different path. There was quite a lot of complexity to building even this simplified model and I learnt a good deal about the modelling. It could be extended in several ways, eg to allow for particle deposition over time, mixing in the vertical axis.
+
+![](/images/atmospheric_dispersion.png)
+
 ## Project: Weather data cube
 Using the Met Office IRIS package, open a cube that contains many years worth of the Hadley sea surface temperature anomaly data, explore the dimensions and their ranges, select the most recent time slice, then visualise the latest 2023 anomaly global picture using a color-brewer palette with coastlines displayed on a filled contour plot:
 
