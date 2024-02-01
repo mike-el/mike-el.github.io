@@ -50,23 +50,6 @@ qplt.show()
 #plt.savefig('wind_speed_lake_victoria.png',dpi=200)  # To save the figure. You specify the extension (eg jpg, png, bmp) and matplotlib is clever enough to figure out how to save it.
 ```
 
-
-    
-![png](output_1_0.png)
-    
-
-
-
-    
-![png](output_1_1.png)
-    
-
-
-
-    <Figure size 640x480 with 0 Axes>
-
-
-
 ```python
 print(uwind)
 print(vwind)
@@ -277,13 +260,6 @@ plt.gca().add_feature(lakes)
 plt.title("Wind speed over Lake Victoria")
 qplt.show()
 ```
-
-
-    
-![png](output_16_0.png)
-    
-
-
 
 ```python
 # Convert the cube format to a dataframe so the maths is simple.
@@ -1163,13 +1139,6 @@ plt.show()
 #plt.savefig('atmospheric_dispersion.png',dpi=200)  # To save the figure. You specify the extension (eg jpg, png, bmp) and matplotlib is clever enough to figure out how to save it.
 
 ```
-
-
-    
-![png](output_25_0.png)
-    
-
-
 
 ```python
 
