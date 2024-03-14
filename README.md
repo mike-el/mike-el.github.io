@@ -7,6 +7,7 @@ This short portfolio covers a few of my recent (2023 and 2024) self-training act
  - Weather and climate modelling
  - Artificial Intelligence: Natural Language Processing
  - XGBoost for predictive modelling
+ - Object oriented code example - outlier detection. See ![code](20240314_outlier_object_oriented.md).
 
 ## Project: Atmospheric dispersion model - for wind blown particles
 I built a simple monte carlo simulation to track how particles are dispersed due to wind currents. I loaded real wind data from Lake Victoria using the Met Office IRIS package:
